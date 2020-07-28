@@ -1,0 +1,10 @@
+Note: this code do not use same as cif name.
+
+Please, install potfit on $HOME. (i.e., $HOME/potfit)
+
+Steps:
+1) chmod +x run_pwscf_potfit_table
+2) gedit table
+3) ./run_pwscf_potfit_table Al eam
+  (or ./run_pwscf_potfit_table Al adp)
+
