@@ -81,8 +81,3 @@ Please, set PATH of potfit and PWscf.
   (e.g., Mg_Ni_H, ADP potential)
 
 
-7. cat output_table
-
-
-  (Vmin and Vmax are Volume (Angstrom^3) unit)
-
