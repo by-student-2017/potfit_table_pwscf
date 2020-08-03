@@ -2,13 +2,19 @@ potfit_table_pwscf
 
 
 ------------------------------------------------------------------------------
-#vvpotfit (need "intel MKL")
+# potfit (need "intel MKL")
+
+
 (ubuntu 18.04 LTS (64 bit) (on Windows 10 (64 bit)))
+
+
 (https://www.potfit.net/wiki/doku.php)
+
+
 (Edit: 28/Jul/2020)
 
 
-##Install
+## Install
 1. sudo apt update
 2. sudo apt install -y git
 3. cd ~
@@ -18,7 +24,7 @@ potfit_table_pwscf
 Å¶ Please, set PATH of potfit and PWscf.
 
 
-##Run
+## Run
 1 cd ~/potfit_table_pwscf
 2. export OMP_NUM_THREADS=1
 3. gedit table
@@ -28,9 +34,6 @@ potfit_table_pwscf
 
 
 | Structure(cif) | XxYxZ | W | Tmin | Tmax | NT | Vmax(%) | NV(odd) | wiht force | N(MD) |
-
-
-------------------------------------------------------------------------------------------
 
 
 Configurations with attributed forces (MD calculation)
@@ -51,9 +54,6 @@ fcc_Al_scf.cif      2 2 2  15      0      0    1      6         1        0      
 
 
 bcc_Al_scf.cif      2 2 2  15      0      0    1      6         1        0            0
-
-
------
 
 
 4. ./run_pwscf_potfit_table Al eam 100
