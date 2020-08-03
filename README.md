@@ -27,37 +27,9 @@ Please, set PATH of potfit and PWscf.
 
 
 ## Run
-1 cd ~/potfit_table_pwscf
+1. cd ~/potfit_table_pwscf
 2. export OMP_NUM_THREADS=1
 3. gedit table
-
-
------(This table is test case) (Note: this code does not set same cif name.)
-
-
-| Structure(cif) | XxYxZ | W | Tmin | Tmax | NT | Vmax(%) | NV(odd) | wiht force | N(MD) |
-
-
-Configurations with attributed forces (MD calculation)
-
-
-fcc_Al_md.cif       2 1 1   1    300    300    1      6         1        1           50
-
-
-bcc_Al_md.cif       2 1 1   1    300    300    1      6         1        1           50
-
-
-
-
-Configurations without attributed forces (SCF calculation)
-
-
-fcc_Al_scf.cif      2 2 2  15      0      0    1      6         1        0            0
-
-
-bcc_Al_scf.cif      2 2 2  15      0      0    1      6         1        0            0
-
-
 4. ./run_pwscf_potfit_table Al eam 100
 
 
