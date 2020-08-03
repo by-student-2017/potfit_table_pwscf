@@ -21,7 +21,9 @@ potfit_table_pwscf
 4. git clone https://github.com/by-student-2017/potfit_table_pwscf.git
 5. cd ~/potfit_table_pwscf
 6. chmod +x run_pwscf_potfit_table
-Å¶ Please, set PATH of potfit and PWscf.
+
+
+Please, set PATH of potfit and PWscf.
 
 
 ## Run
