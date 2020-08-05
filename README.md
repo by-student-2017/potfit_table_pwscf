@@ -23,7 +23,7 @@ potfit_table_pwscf
 6. chmod +x run_pwscf_potfit_table
 
 
-Please, set PATH of potfit and PWscf.
+Please, install and set PATH of potfit for PWscf and cif2cell-informal.
 
 
 ## Run
